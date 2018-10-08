@@ -1,0 +1,27 @@
+{
+  "name": "name-that-color2",
+  "version": "1.0.0",
+  "main": "cli.js",
+  "scripts": {
+    "build-map": "node --max-old-space-size=8192 build.js"
+  },
+  "bin": {
+    "name-that-color2": "./cli.js"
+  },
+  "author": "Jo <jo@redcat.ninja> (https://redcat.ninja)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "onecolor": "^3.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redcatjs/name-that-color2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/redcatjs/name-that-color2/issues"
+  },
+  "homepage": "https://github.com/redcatjs/name-that-color2#readme",
+  "description": ""
+}
